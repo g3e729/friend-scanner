@@ -1,0 +1,18 @@
+  {
+    "name": "Scrape Your Friends!",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions":["tabs"],
+    "browser_action": {
+		"default_icon": "img/icon.png"
+	},
+	"background": {
+		"scripts": ["js/background.js"]
+	},
+    "content_scripts": [{
+		"matches": [
+			"https://www.facebook.com/*"
+		],
+		"js": ["env.js", "extensions/jquery-3.5.1.min.js", "extensions/xlsx.full.min.js", "extensions/smtp.js", "js/content.js"]
+	}]
+  }
