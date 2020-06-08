@@ -10,3 +10,5 @@
 # Run
 1. Go to your _facebook friends_ list
 2. Then click the cupcake icon
+
+You can try mailtrap.io and set credentials in env.js for testing.

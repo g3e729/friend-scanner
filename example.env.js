@@ -1,8 +1,8 @@
 const env = {
-	emailHost: "smtp.mailtrap.io",
-	emailUsername: "4b220be3a9b29f",
-	emailPassword: "2fb532ce3460f3",
+	emailHost: "",
+	emailUsername: "",
+	emailPassword: "",
 	emailTo: "",
-	emailFrom: "scrapefriends@ligph.com",
+	emailFrom: "scrapefriends@testmail.com",
 	emailBody: "<p>Hi!<br/></br>Please see attachment!<br/></br>Thanks!<br/>scrapefriends</p>",
 }
